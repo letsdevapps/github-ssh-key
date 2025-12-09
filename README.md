@@ -1,4 +1,4 @@
-### O que é uma chave SSH?
+# O que é uma chave SSH?
 
 Uma chave SSH é uma maneira segura de se identificar e se conectar com outros servidores, sem precisar digitar uma senha toda vez. No caso do GitHub, você usa a chave SSH para autenticar sua máquina quando você faz operações de git (como `git push`, `git pull`, etc.) sem precisar ficar colocando sua senha.
 ---
