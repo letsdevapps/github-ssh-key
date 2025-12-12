@@ -109,6 +109,16 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
 
 Isso significa que sua chave SSH está funcionando com o GitHub!
 
+Para não ter que digitar o PAT toda vez, você pode armazenar suas credenciais em cache:
+
+git config --global credential.helper cache
+
+Ou, se preferir salvar de forma mais permanente:
+
+git config --global user.name "username"
+git config --global user.email "username@example.com"
+git config --global credential.helper store
+
 ---
 
 ### Resumo:
